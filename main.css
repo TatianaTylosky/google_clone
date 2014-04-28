@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	position: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+.search_buttons {
+	width: 300px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+
+/*ALL THAT STUFF ABOVE JUST RESET EVERYTHING TO ZERO/GOT RID OF DEFAULT STYLING ETC*/
+
+/*NEW STUFF THAT I AM ADDING BELOW*/
+
+/*this is for the form that you would write the search term into */
+
+
+table {
+	border-spacing: 30px;
+	position: relative;
+	display: block;
+	width: 400px;
+}
+
+textarea {
+	position: relative; /*you do this so that the "top" style works below*/
+	width: 500px; /*just makes it bigger to make the google search bar*/
+	top: 25px; /*this places it lower below the GOOGLE picture*/
+}
+
+/*this is class applied to the blue button, in attempt to make it actually like a blue button*/
+.blue_button {
+	width: 100px;
+	background-color: #4584ef; 
+	height: 30px;
+	color: white;
+	line-height: 30px;  
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+}
+
+.grey_button {
+	width: 150px;
+	background-color: #dbdbdb; 
+	height: 30px;
+	color: gray;
+	line-height: 30px;  
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.grid {
+	position: relative;
+}
+
+td {
+	width: 50px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.float_right {
+	margin-left: 60%;
+}
+
+.microphone {
+	position: relative;;
+}
+
+.left10px {
+
+}
+
+.textarea {
+	position: relative;
+}
+
+
+.center_blocks {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.center {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+header {
+	position: relative;
+}
+
+body {
+	position: relative;
+}
+
+.footer {
+	width: 100%;
+	height: 25px;
+	position: absolute;
+	color: #dbdbdb;
+}
+
+.google_logo {
+	
+	position: relative;
+	width: 100%;
+}
+
+/** { 
+  outline: 1px solid black;
+}*/
